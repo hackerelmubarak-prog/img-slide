@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #111;
+}
+.container{
+    display: flex;
+    gap: 3px;
+}
+.container img{
+    width: 130px;
+    height: 400px;
+    border: 2px solid rgba(255, 255 , 255 , 0.5);
+    border-radius: 10px;
+    object-fit: cover;
+    transition:  .4s ease;
+}
+.container img:hover{
+width: 558px;
+}
